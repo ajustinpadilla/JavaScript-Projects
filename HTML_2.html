@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/CSS" href="./CSS/CSS_2.css">
+    <script src="./JavaScript/JavaScript_2.js" defer></script>
+</head>
+<body>
+
+    <form name="Contact" action="" onsubmit="return validation()" method="POST">
+        <h1>Contact Info</h1>
+        <label for="Name">*Name: </label><br>
+        <input id="Name" type="text" name="Name" placeholder="Name"><br>
+        <label for="Phone">Phone Number: </label><br>
+        <input id="Phone" type="text" name="Phone" placeholder="(555)-555-5555"><br>
+        <label for="Email">*Email: </label><br>
+        <input id="Email" type="email" name="Email" placeholder="Your@email.com"><br>
+        <textarea id="Comment" name="Comment" type="text">Please enter a comment if you'd like</textarea></textarea><br>
+        <div style="width: 100%;">
+            <input type="submit" value="Send">
+            <p>*: Required</p>
+        </div>
+    </form>
+    
+</body>
+</html>
